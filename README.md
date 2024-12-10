@@ -3,7 +3,7 @@
 이 가이드는 Windows에서 Docker를 설치하고 GPU를 사용할 수 있는 Docker 환경을 설정하는 방법을 설명합니다.
 
 > **주의:** 이 가이드는 Windows 시스템에 WSL이 이미 설치되어 있다는 전제 하에 작성되었습니다.
-
+>
 > WSL이 설치되어 있지 않다면, 먼저 [WSL 설치 가이드 1](https://github.com/sw-dreamer/wsl-install.git) 나 [WSL 설치 가이드 2](https://docs.microsoft.com/en-us/windows/wsl/install)를 참조하여 먼저 WSL을 설치하십시오.
 
 ## 1. Docker Desktop 다운로드

@@ -32,7 +32,9 @@ Docker Desktop을 설치한 후에는 WSL 2 통합을 활성화해야 합니다
 2. General 탭에서 WSL 2 기반 엔진 사용 옵션이 활성화되어 있는지 확인합니다.
    
 3. Resources 탭으로 이동한 후 WSL Integration을 활성화합니다.
+   
    이 옵션에서 Docker와 통합할 WSL 배포판을 선택할 수 있습니다.
+   
    현재 사용 중인 배포판이 선택되어 있는지 확인하세요.
 
 ## 4. Docker GPU 지원 설정 확인

@@ -23,7 +23,19 @@ Docker를 Windows에 설치하려면 다음 단계를 따릅니다:
 
 > **참고:** Docker Desktop은 WSL 2를 기반으로 작동하므로, WSL이 정상적으로 설치되어 있어야 합니다.
 
-## 3. Docker GPU 지원 설정 확인
+## 3. Docker Desktop에서 WSL 2 통합 활성화
+
+Docker Desktop을 설치한 후에는 WSL 2 통합을 활성화해야 합니다
+
+1. Docker Desktop을 열고, 오른쪽 상단의 설정(gear 아이콘) 을 클릭합니다.
+   
+2. General 탭에서 WSL 2 기반 엔진 사용 옵션이 활성화되어 있는지 확인합니다.
+   
+3. Resources 탭으로 이동한 후 WSL Integration을 활성화합니다.
+   이 옵션에서 Docker와 통합할 WSL 배포판을 선택할 수 있습니다.
+   현재 사용 중인 배포판이 선택되어 있는지 확인하세요.
+
+## 4. Docker GPU 지원 설정 확인
 
 Docker Desktop에서 GPU를 사용할 수 있는 환경이 제대로 설정되었는지 확인하려면 아래 명령어를 실행합니다
 
@@ -33,7 +45,7 @@ Docker Desktop에서 GPU를 사용할 수 있는 환경이 제대로 설정되�
 
 이 명령어를 실행한 후, nvidia-smi 출력 결과가 정상적으로 나오면 GPU를 사용할 수 있는 Docker 환경이 설정된 것입니다.
 
-## 4. 결론
+## 5. 결론
 
 이 가이드를 통해 Docker Desktop을 설치하고 GPU를 사용할 수 있는 Docker 환경을 설정했습니다.
 

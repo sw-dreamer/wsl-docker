@@ -37,18 +37,16 @@ Docker Desktop을 설치한 후에는 WSL 2 통합을 활성화해야 합니다
    
    현재 사용 중인 배포판이 선택되어 있는지 확인하세요.
 
-## 4. Docker GPU 지원 설정 확인
+## 4. Docker 설치 확인
 
-Docker Desktop에서 GPU를 사용할 수 있는 환경이 제대로 설정되었는지 확인하려면 아래 명령어를 실행합니다
+Window키 + S 를 눌러서 ubuntu를 검색 후 로그인을 합니다. 그리고 아래 명령어로 docker가 정상적으로 설치 되어있는지 확인합니다.
 
    ```bash
-   sudo docker run --rm --gpus all nvidia/cuda:11.0.3-base-ubuntu20.04 nvidia-smi
+   docker --version
    ```
 
-이 명령어를 실행한 후, nvidia-smi 출력 결과가 정상적으로 나오면 GPU를 사용할 수 있는 Docker 환경이 설정된 것입니다.
+이 명령어를 실행한 후, **Docker version 27.3.1, build ce12230**식으로 출력이 되면 정상적으로 설치 된 것입니다.
 
 ## 5. 결론
 
-이 가이드를 통해 Docker Desktop을 설치하고 GPU를 사용할 수 있는 Docker 환경을 설정했습니다.
-
-이제 Docker를 이용한 GPU 가속화 작업을 원활하게 진행할 수 있습니다.
+이 가이드를 통해 Docker Desktop을 설치하고 사용할 수 있는 Docker 환경을 설정했습니다.

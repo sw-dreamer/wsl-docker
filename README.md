@@ -1,4 +1,4 @@
-# Docker 설치 및 GPU 지원 설정 가이드
+# Windows에서 Docker 설치
 
 이 가이드는 Windows에서 Docker를 설치하고 GPU를 사용할 수 있는 Docker 환경을 설정하는 방법을 설명합니다.
 
